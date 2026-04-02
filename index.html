@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Marry Me?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Will you marry me, <span id="namePlaceholder">Princess of Baroda</span>?</h1>
+        <div class="buttons">
+            <button id="yesBtn" onclick="moveYesBtn()">No</button>
+            <button id="noBtn" onmouseover="moveNoBtn()" onclick="clickedNo()">Yes</button>
+        </div>
+        <div id="thankYouMessage" class="hidden">
+            <p>Thank you for not choosing me, <span id="nameThankYou">Princess of Baroda</span> 😢</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
